@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebMIDI IO</title>
+  <script src="https://cdn.jsdelivr.net/npm/webmidi@latest/dist/iife/webmidi.iife.js"></script>
+</head>
+<body>
+  <h1>Jazz for Babies</h1>
+
+  <div>
+    <label for="dropdown-ins">Select a MIDI Input:</label>
+    <select id="dropdown-ins"></select> 
+  </div>
+
+  <div>
+    <label for="dropdown-outs">Select a MIDI Output:</label>
+    <select id="dropdown-outs"></select> 
+  </div>
+
+  <div>
+    <label for="key">Select a key:</label>
+    <select id="key">
+      <option value="C">C</option>
+      <option value="Db">Db</option>
+      <option value="D">D</option>
+      <option value="Eb">Eb</option>
+      <option value="E">E</option>
+      <option value="F">F</option>
+      <option value="Gb">Gb</option>
+      <option value="G">G</option>
+      <option value="Ab">Ab</option>
+      <option value="A">A</option>
+      <option value="Bb">Bb</option>
+      <option value="B">B</option>
+    </select>
+  </div>
+
+  <script src="script.js" type="module"></script> 
+</body>
+</html>
